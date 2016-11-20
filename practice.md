@@ -7,36 +7,38 @@ You may use GitHub, PowerPoint, Keynote, or any other tools you desire to
 complete any part of this.
 
 ## Project Idea
-
-What is your project idea?  How did you come up with it? Why? Who would use it?
+Challenging to schedule meetings when participants are across multiple time zones.
+Outlook and other meeting applications do not always provide a user friendly solution.
+Provide a light-weight visual tool to compare multiple time zones to identify time slots within business working hours.
 
 ## Write between 3-5 user stories
+As a user, I want to be compare time zones so that I can find a suitable meeting time across participants.
+As a user, I want to keep track of my settings so that I don't need to change them each time.
+As a user, I want to be able to create an account with my email and a password so that I can securely use the application.
 
-We have gone over this before. Please refer to your notes, previous repos or the
-google machine if you need further assistance.
+Full list of user stories and technical tasks are on Trello.
+https://trello.com/b/e7rkYju3/wdi-full-stack-project
 
 ## Plan your tables and columns
-
-What tables will you need? What will the columns on the table be?
+https://github.com/coffeeisamazing/meeting-planner-back-end/blob/development/docs/Table_Design.xlsx
 
 ## Create an ERD (entity relationship diagram)
-
-These are the diagrams that show how your tables are related to one another.
-(one to many, many to many, ect).
+http://imgur.com/a/hyWfR
 
 ## Routing
-
-What routes will you need to be able to make the proper request to your API?
+https://github.com/coffeeisamazing/meeting-planner-back-end/blob/development/docs/Routing_Design.xlsx
 
 ## 3rd Party APIs
-
-Do you plan to use any, if so what are they?
+Google Maps Time Zone API
+https://developers.google.com/maps/documentation/timezone/intro
 
 ## Wireframes
-
-Please create a wireframe of your planned front end.
+https://github.com/coffeeisamazing/meeting-planner-front-end/blob/development/docs/Wireframes.pdf
 
 ## Timetable
-
-Write a basic timetable for yourself, you don't have to stick to it but it
-helps to go in with a plan.
+Complete User Stories & High-Level Design	--> DONE
+Test Github Pages / Heroku Deployments	--> 11/28
+Complete Project Requirements	--> 12/01
+Complete UI Polish & Other Enhancements	--> 12/04
+Finalize Documentation & Regression Testing	--> 12/05
+Submit Project	--> 12/05
