@@ -8,25 +8,33 @@ complete any part of this.
 
 ## Project Idea
 
-What is your project idea?  How did you come up with it? Why? Who would use it?
+A deck builder for a card game that will determine which card combinations will work and what they will do.
 
 ## Write between 3-5 user stories
 
-We have gone over this before. Please refer to your notes, previous repos or the
-google machine if you need further assistance.
+Create User / Log in?
+Be able to get a random selection of cards
+Be able to enter card combos and get their results
+Get all combinations given a selection of cards
+Create a deck
+Save a deck
 
 ## Plan your tables and columns
 
-What tables will you need? What will the columns on the table be?
+Tables: Cards | Combinations | Available
 
 ## Create an ERD (entity relationship diagram)
 
-These are the diagrams that show how your tables are related to one another.
-(one to many, many to many, ect).
+Get All Cards => server => cardsController => cardsModel => cardsController => server => frontEnd
+Get Deck => server => deckController => deckModel => deckController => server => frontEnd
+get combinations => server => comboController => comboModel => comboController => server => frontEnd
 
 ## Routing
 
-What routes will you need to be able to make the proper request to your API?
+/login /logout?
+/cards: list of all cards
+/decks: list of user made decks
+/combos: list of card combinations
 
 ## 3rd Party APIs
 
@@ -34,9 +42,12 @@ Do you plan to use any, if so what are they?
 
 ## Wireframes
 
-Please create a wireframe of your planned front end.
+In this repo as wireframe.png
 
 ## Timetable
 
-Write a basic timetable for yourself, you don't have to stick to it but it
-helps to go in with a plan.
+DAY 1:
+Basic setup of font and backend
+DAY 2:
+Implement app functions
+Day 3: Finish and cleanup
