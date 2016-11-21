@@ -10,6 +10,9 @@ complete any part of this.
 
 What is your project idea?  How did you come up with it? Why? Who would use it?
 
+MADE A PRESENTATION IN PHOTOSHOP!! Not sure how to link it but ask me whatever -- I'm good to go!
+
+
 ## Write between 3-5 user stories
 
 We have gone over this before. Please refer to your notes, previous repos or the
