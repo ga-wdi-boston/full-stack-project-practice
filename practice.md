@@ -56,8 +56,8 @@ Instagram, Google Maps (?)
 ## Wireframes
 
 Please create a wireframe of your planned front end.
-
-(http://i.imgur.com/tIrqxR8.png)
+(http://i.imgur.com/sWODGOT.png)
+(http://i.imgur.com/Sh2vJpF.png)
 
 ## Timetable
 
