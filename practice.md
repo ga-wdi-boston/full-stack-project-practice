@@ -1,42 +1,32 @@
-# Full Stack Project Practice
+Project Idea
+A web app that runs cellular automatons. The app would allow users to change the rules of how the cells behave, such as how long it takes a cell to 'die' or how many cells are 'born' when cells 'breed'.
+I came up with the idea after playing around with Conway's Game of Life during class. I found it interesting and thought that it could actually be useful as a simple model for various things such as infection patterns, birth rates, or other things. I imagine people who would use it would be those who are interested in modeling various problems or who are just curious as to how certain scenarios play out.
 
-You will be presenting this early next week.  Please have a breif presentation
-planned.  Presentations should be between 5 - 10 minutes long.
+User Stories
+As a user, I can set rules for automatons.
+As a user, I can save rules I make.
+As a user, I can see the history of steps/ticks/frames.
+As a user, I can change the way cells are displayed.
 
-You may use GitHub, PowerPoint, Keynote, or any other tools you desire to
-complete any part of this.
+Tables
+User Table
+Columns are password and username
+Ruleset Table
+Columns for the values of various 'rules'
+Rows are the Rulesets or 'profiles' saved by the user
 
-## Project Idea
+ERD
 
-What is your project idea?  How did you come up with it? Why? Who would use it?
+Routing
+Routes to POST new rulesets, PATCH update rulesets, DELETE rulesets, and GET rulesets
 
-## Write between 3-5 user stories
+3rd Party APIs
+D3.js
 
-We have gone over this before. Please refer to your notes, previous repos or the
-google machine if you need further assistance.
+Wireframes
 
-## Plan your tables and columns
-
-What tables will you need? What will the columns on the table be?
-
-## Create an ERD (entity relationship diagram)
-
-These are the diagrams that show how your tables are related to one another.
-(one to many, many to many, ect).
-
-## Routing
-
-What routes will you need to be able to make the proper request to your API?
-
-## 3rd Party APIs
-
-Do you plan to use any, if so what are they?
-
-## Wireframes
-
-Please create a wireframe of your planned front end.
-
-## Timetable
-
-Write a basic timetable for yourself, you don't have to stick to it but it
-helps to go in with a plan.
+Timetable
+Plan
+Make front-end and back-end templates
+Create basic cellular automata
+Add Comment
