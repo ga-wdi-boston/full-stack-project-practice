@@ -10,14 +10,39 @@ complete any part of this.
 
 What is your project idea?  How did you come up with it? Why? Who would use it?
 
+In the city I grew up in it can be trick to find bars and restaurants that are
+non-smoking. My project idea is to use google maps API to map out all the
+smoke free restaurants so that non-smokers, and smokers too, can find smoke free
+restaurants with a nice atmosphere.
+
+
 ## Write between 3-5 user stories
 
 We have gone over this before. Please refer to your notes, previous repos or the
 google machine if you need further assistance.
 
+I am a user and I want to:
+||  find smoke free restaurants.
+    ||  bars.
+||  add a restaurants or bars to the map.
+||  add ratings (how clean the air inside is generally)
+
 ## Plan your tables and columns
 
 What tables will you need? What will the columns on the table be?
+
+table: Bar_Restaurants
+ID, Name, Type, Location, Address, Phone, Rating, Reviews, Review_ID
+
+table: Users
+ID, Name, UserName, Ratings Given, Reviews Given, Reputation
+
+table: Ratings
+ID, Score
+
+table: Reviews
+ID, Text
+
 
 ## Create an ERD (entity relationship diagram)
 
