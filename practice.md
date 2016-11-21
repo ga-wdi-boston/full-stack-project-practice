@@ -63,3 +63,9 @@ Please create a wireframe of your planned front end.
 
 Write a basic timetable for yourself, you don't have to stick to it but it
 helps to go in with a plan.
+
+UI - ideally completed over break/ 1 day
+Authentication API - 1 day
+Map API - 1 day
+Instagram API - 1 day
+General clean-up/refinement - 1 day/weekend before submission
