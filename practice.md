@@ -22,9 +22,9 @@ We have gone over this before. Please refer to your notes, previous repos or the
 google machine if you need further assistance.
 
 I am a user and I want to:
-||  find smoke free restaurants.
-    ||  bars.
-||  add a restaurants or bars to the map.
+||  search for smoke free restaurants.
+||  find smoke free restaurants on a map.
+||  add a restaurants to the map.
 ||  add ratings (how clean the air inside is generally)
 
 ## Plan your tables and columns
@@ -49,19 +49,29 @@ ID, Text
 These are the diagrams that show how your tables are related to one another.
 (one to many, many to many, ect).
 
+Many to Many
+Between Restaurants and Reviews
+
 ## Routing
 
 What routes will you need to be able to make the proper request to your API?
 
 ## 3rd Party APIs
 
-Do you plan to use any, if so what are they?
+https://developers.google.com/maps/documentation/javascript/examples/map-geolocation
 
 ## Wireframes
 
-Please create a wireframe of your planned front end.
+Let me draw them for you
 
 ## Timetable
 
-Write a basic timetable for yourself, you don't have to stick to it but it
-helps to go in with a plan.
+HTML - get a map showing
+
+Build restaurants Table.
+
+Get pins of restaurants to show up on maps.
+
+Build other tables
+
+Get tables linked.
