@@ -29,6 +29,7 @@ google machine if you need further assistance.
 ## Plan your tables and columns
 
 What tables will you need? What will the columns on the table be?
+http://i.imgur.com/gX45Wxh.jpg
 
 ## Create an ERD (entity relationship diagram)
 
