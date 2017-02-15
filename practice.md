@@ -32,7 +32,7 @@ What tables will you need? What will the columns on the table be?
 
 Player: id
 
-Game: player_count, length
+Game: id, name, player_count, length
 
 Session: player_id, game_id, rating, headcount, notes
 
