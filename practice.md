@@ -6,6 +6,8 @@ planned.  Presentations should be between 5 - 10 minutes long.
 You may use GitHub, PowerPoint, Keynote, or any other tools you desire to
 complete any part of this.
 
+Link to slides for this practice: https://docs.google.com/presentation/d/1LTaP9XbJY3iOjTrOz55zaAhYDw-UET_x0P1sjSYGivo/edit?usp=sharing
+
 ## Project Idea
 
 What is your project idea?  How did you come up with it? Why? Who would use it?
