@@ -64,7 +64,7 @@ These are the diagrams that show how your tables are related to one another.
 (one to many, many to many, ect).
 There is a 1:1 relationship between USER and PASSWORD
 There is a 0:N replationship between USER and WINE
-There is a 0:N replationship between USER and SELLER
+There is a 0:N replationship between USER and SELLER. 
 
 ## Routing
 
