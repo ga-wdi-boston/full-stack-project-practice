@@ -60,7 +60,7 @@ These are the diagrams that show how your tables are related to one another.
 (one to many, many to many, ect).
 
 Inital ERD
-![alt text](http://imgur.com/a/w4bhN "ERD")
+See ERD_diagram.png
 
 
 ## Routing
@@ -83,11 +83,11 @@ Maybe a machine learning API to recommend albums based on the genre and artist t
 Please create a wireframe of your planned front end.
 
 Sign-In
-![alt text](http://imgur.com/a/LVhVj "Sign In")
+See Sign_In.png
 
 
 Album info
-![alt text](http://imgur.com/a/IVt1y "Sign Out")
+See Album_screen.png
 
 
 ## Timetable
