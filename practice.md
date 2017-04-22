@@ -94,6 +94,8 @@ Please create a wireframe of your planned front end.
 
 Write a basic timetable for yourself, you don't have to stick to it but it
 helps to go in with a plan.
+
+```
 Day 1 - Plan and design: wireframe, user stories, ERM
         Set up front end repository
         Set up back end repository
@@ -102,3 +104,4 @@ Day 2 - Design front end user/page interaction. Design backend based on front
 Day 3 - Research and code attachments feature (and perhaps storing and displaying
         URL as a link in the note)
 Day 4 - Refine, final testing
+```
