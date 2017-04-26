@@ -16,6 +16,14 @@ once a week. I have a note book where I make notes on my observations. It would
 be nice to be able to move these observations online.  This application could
 be used by any hobbyist beekeeper.
 
+For MVP I will implement the ability to create a hive and enter details about
+that hive.
+
+Stretch goal will be to create a log that will contain observations where
+the user is allow to choose from preloaded 'observations'.  The ability to enter
+additonal observations as text via micro-phone type API. Potentially add images
+from observations.
+
 ## Write between 3-5 user stories
 The normal signup/signin/signout/change password stories
 
@@ -24,6 +32,10 @@ Story: As a User, I want to add what type of queen the hive has, So that I know
 what type of queen this have has.
 Story: As a User, I want to add the year the queen was reared, So that I know
 how old she is.
+Story: As a User, I want my know how many brood supers per hive, So that I can
+plan on replacing frames for my IPM.
+
+Other User Stories:
 Story: As a User, I want to add a date that my drone comb was added, So that I
 can remove it before they hatch.
 Story: As a User, I want to be sent an alerted when I need to remove the drone
@@ -83,6 +95,8 @@ Shallow
 These are the diagrams that show how your tables are related to one another.
 (one to many, many to many, ect).
 
+http://i.imgur.com/sGyoD9N.png
+
 ## Routing
 
 What routes will you need to be able to make the proper request to your API?
@@ -100,6 +114,7 @@ Please create a wireframe of your planned front end.
 Not sure yet...but want to be able to select from dropdown for certain items.
 Would the choices be stored in a DB table and set to the client to be displayed?
 
+http://i.imgur.com/HLqrOfv.jpg
 
 ## Timetable
 
@@ -108,9 +123,8 @@ helps to go in with a plan.
 
 Identify what is needed for MVP.
 Determine what DB tables are required and relationships
-Build out rails scaffold
-Implement routes and controllers along with curl scripts for sign up/in/out
-Implement routes and controllers along with curl scripts for hive/queen/observations
-Build MVP UI for sign up/in/out
+Build MVP UI for sign up/in/out/password
+Build out rails scaffold for new tables to support features.
+Implement routes and controllers along with curl scripts for support features
 Build MVP UI for adding hive and hive supers.
-Build MVP UI for adding hive observations
+Refactor basic UI to improve appearance.
