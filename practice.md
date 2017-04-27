@@ -10,14 +10,41 @@ complete any part of this.
 
 What is your project idea?  How did you come up with it? Why? Who would use it?
 
+http://top50.topsters.net/
+Basically this, but with movies and dumbed waaaay down.
+I'd like to have it be a list of your favorite movies with the ability to return stats about your favorite movies (specifically, the year they were released, who directed them)
+
+People would use it to tell other people on the internet with quantitative precision that your taste in music is terrible.
+
+People trying to show off their taste in film on the internet.
+
 ## Write between 3-5 user stories
 
 We have gone over this before. Please refer to your notes, previous repos or the
 google machine if you need further assistance.
 
+As a pretentious cinephile, I really need to list my favorite movies and show you how much better my taste in film is than yours.
+
+As a data-driven individual, I need to be able to break down when my favorite movies were made and who made them.
+
+As a bigshot hollywood producer, I need to see which directors, genres and periods have produced the most popular films
+
+As a general assembly developer, I need to create a product which will pass muster.
+
 ## Plan your tables and columns
 
 What tables will you need? What will the columns on the table be?
+
+Films
+  Title
+  Director
+  Year
+  Genre
+
+Users (I imagine this is prebuilt, but were I working from scratch, this would be how I'd do it)
+  Username
+  Email address
+  Password
 
 ## Create an ERD (entity relationship diagram)
 
@@ -31,6 +58,8 @@ What routes will you need to be able to make the proper request to your API?
 ## 3rd Party APIs
 
 Do you plan to use any, if so what are they?
+
+I do not.
 
 ## Wireframes
 
