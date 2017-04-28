@@ -49,14 +49,14 @@ What tables will you need? What will the columns on the table be?
 Two tables, one for user information ('users' table) and another for words
 ('words' table).
 
-#### users table
+#### users
 | Column     |     Type     |
 |------------|--------------|
 | id         | primary key  |
 | username   | text         |
 | password   | text         |
 
-#### words table
+#### words
 | Column     |     Type     |
 |------------|--------------|
 | id         | primary key  |
