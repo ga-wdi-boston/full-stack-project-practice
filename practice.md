@@ -80,4 +80,4 @@ http://imgur.com/LvmZ3xS
 Write a basic timetable for yourself, you don't have to stick to it but it
 helps to go in with a plan.
 
-As it stands, I have begun to work on planning and building out my project. I am using the checklist written into the
+As it stands, I have begun to work on planning and building out my project. I am using the checklist written into the project requirements. Beyond getting a primitive front end built out this weekend, I have no set in stone time table. I will simply move forward towards the goal one strategic objective at a time without creating overly limiting timetables in advance.
