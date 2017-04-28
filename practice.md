@@ -84,7 +84,8 @@ At the moment I do not plan to user any 3rd party APIs.
 
 Please create a wireframe of your planned front end.
 
-http://imgur.com/a/0DX16
+[wireframe]: http://imgur.com/a/0DX16 "wireframe"
+
 
 ## Timetable
 
