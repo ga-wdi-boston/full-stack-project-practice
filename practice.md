@@ -51,9 +51,17 @@ Users (I imagine this is prebuilt, but were I working from scratch, this would b
 These are the diagrams that show how your tables are related to one another.
 (one to many, many to many, ect).
 
+http://imgur.com/gPUrPmF
+
 ## Routing
 
 What routes will you need to be able to make the proper request to your API?
+
+I imagine the routes used in this project will mimic the routes used by the sample API. In authentication, the routes seem pre-defined. For the actual app API methods, my plan is to ape the sample APIs using
+
+resources :movies, only: %i[index show destroy update]
+
+to implement the same CRUD functionality.
 
 ## 3rd Party APIs
 
@@ -65,7 +73,11 @@ I do not.
 
 Please create a wireframe of your planned front end.
 
+http://imgur.com/LvmZ3xS
+
 ## Timetable
 
 Write a basic timetable for yourself, you don't have to stick to it but it
 helps to go in with a plan.
+
+As it stands, I have begun to work on planning and building out my project. I am using the checklist written into the
