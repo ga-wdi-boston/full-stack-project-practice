@@ -81,7 +81,7 @@ This would involve a many to many relationship.
 
 What routes will you need to be able to make the proper request to your API?
 
-Users
+#### Users
 | Verb   | URI Pattern          | Controller#Action |
 |--------|----------------------|-------------------|
 | POST   | /sign-up             | users#signup      |
@@ -89,12 +89,12 @@ Users
 | DELETE | /sign-out/:id        | users#signout     |
 | PATCH  | /change-password/:id | users#changepw    |
 
-post '/sign-up' => 'users#signup'
-post '/sign-in' => 'users#signin'
-delete '/sign-out/:id' => 'users#signout'
-patch '/change-password/:id' => 'users#changepw'
+- post '/sign-up' => 'users#signup'
+- post '/sign-in' => 'users#signin'
+- delete '/sign-out/:id' => 'users#signout'
+- patch '/change-password/:id' => 'users#changepw'
 
-Words
+#### Words
 | Verb   | URI Pattern | Controller#Action |
 |--------|-------------|-------------------|
 | GET    | /words      | words#index       |
@@ -103,11 +103,11 @@ Words
 | PATCH  | /words/:id  | words#update      |
 | DELETE | /words/:id  | words#destroy     |
 
-get '/words/' => 'words#index'
-post '/words/' => 'words#create'
-get '/words/:id' => 'words#show'
-patch '/words/:id' => 'words#update'
-delete 'words/:id' => 'words#destroy'
+- get '/words/' => 'words#index'
+- post '/words/' => 'words#create'
+- get '/words/:id' => 'words#show'
+- patch '/words/:id' => 'words#update'
+- delete 'words/:id' => 'words#destroy'
 
 
 ## 3rd Party APIs
@@ -133,5 +133,5 @@ helps to go in with a plan.
 4. Build database (and seed data)
 5. Build flashcard API
 6. Build front-end with Javascript to communicate with API
-9. Add content in the README files
-10. Add extra CSS/jQuery styling features if time allows
+7. Add content in the README files
+8. Add extra CSS/jQuery styling features if time allows
