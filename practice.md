@@ -8,21 +8,27 @@ complete any part of this.
 
 ## Project Idea
 
-What is your project idea?  How did you come up with it? Why? Who would use it?
+Idea one.
+I want to make an app that compares items I have in my "pantry" to items I need from a list of recipes. For instance, if I want to make red beans and rice, and my pantry list says I have onions, celery, bell pepper, beans, rice, and sausage and my red beans recipe says I need all of those ingredients, plus hamhock, Tabasco, and bay leaves my app will tell me I need to get those three extra ingredients. This app could get complicated but I'll keep it simple at first by making the recipes list a short "favorites" recipe list.  I came up with this because I like to cook, already have the recipes in my head, and hate when I forget what I have while grocery shopping.
 
 ## Write between 3-5 user stories
 
-We have gone over this before. Please refer to your notes, previous repos or the
-google machine if you need further assistance.
+As a user, I want to be able to visit my website and add a list of ingredients I have at my house.
 
+As a user I want to be able to pick from a selection of recipes (favorites) and know what I need to get at the store .
+
+As a user I want to be able to add a favorite recipe.
 ## Plan your tables and columns
 
-What tables will you need? What will the columns on the table be?
-
+I'll need a recipes table and an ingredients table.
+Recipes will have a name for the recipes column and a colum with a hash for
+ingredients (this may not work)
 ## Create an ERD (entity relationship diagram)
 
 These are the diagrams that show how your tables are related to one another.
 (one to many, many to many, ect).
+
+Not sure just yet, I need to figure out the relationships.
 
 ## Routing
 
