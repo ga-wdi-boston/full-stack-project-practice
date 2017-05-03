@@ -31,7 +31,7 @@ google machine if you need further assistance.
 1. As a user, I want to sign up so that I can sign in
 2. As a user, I want to sign in so that I can create new flashcards and access them for studying.
 3. As a user, I want to change my password so that
-4. As a user, I want to create a new word with a definition so that I can study more words.
+4. As a user, I want to create a new flashcard with a definition so that I can study more words.
 5. As a user, I want to view all flashcards that I made so that I can study words.
 6. As a user, I want the definitions to be hidden at first but shown when I click on each card so that I can practice defining words.
 7. As a user, I want to randomize the order of words so that I can memorize words
@@ -39,31 +39,36 @@ without having to rely on patterns.
 8. As a user, I want to search for a word I’ve created so that I can make edits to the word and definition.
 9. As a user, I want to make edits to a flashcard so that I have the correct words and definitions.
 10. As a user, I want to delete flashcards so that I so that I can have only the words I need to study.
-11. As a user, I want to sign out so that I can have only the words I need to study.
+11. As a user, I want to add other users' flashcards into my own deck so that I can study more words.
+12. As a user, I want to sign out so that I can have only the words I need to study.
 
 
 ## Plan your tables and columns
 
 What tables will you need? What will the columns on the table be?
 
-Two tables, one for user information ('users' table) and another for words
-('words' table).
-
 #### users
-| Column     |     Type     |
-|------------|--------------|
-| id         | primary key  |
-| username   | text         |
-| password   | text         |
+| Column       |     Type     |
+|--------------|--------------|
+| id           | primary key  |
+| username     | text         |
+| password     | text         |
 
-#### words
-| Column     |     Type     |
-|------------|--------------|
-| id         | primary key  |
-| word       | text         |
-| definition | text         |
-| user_id    | foreign key  |
+#### authors
+| Column       |     Type     |
+|--------------|--------------|
+| id           | primary key  |
+| given_name   | text         |
+| family_name  | text         |
 
+
+#### flashcards
+| Column       |     Type     |
+|--------------|--------------|
+| id           | primary key  |
+| word         | text         |
+| definition   | text         |
+| author_id    | foreign key  |
 
 
 ## Create an ERD (entity relationship diagram)
@@ -71,11 +76,16 @@ Two tables, one for user information ('users' table) and another for words
 These are the diagrams that show how your tables are related to one another.
 (one to many, many to many, ect).
 
-The relationship between users and words will be one to many. Each word belongs
-to a different user, but each user has many words.
+The relationship between authors and words will be one to many.
+An author has many flashcards, and a flashcard belongs to an author.
 
-If I have time, I may make it so that users can check other users' flashcards.
-This would involve a many to many relationship.
+(authors)-|-----<(flashcards)
+
+
+If I have time, I may make it so that authors can get other users' flashcards.
+This would involve a many to many relationship implemented through a join table,
+which I would like to speak with a consultant about it.
+
 
 ## Routing
 
