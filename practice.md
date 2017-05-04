@@ -124,7 +124,7 @@ What routes will you need to be able to make the proper request to your API?
 - post '/flashcards/' => 'flashcards#create'
 - get '/flashcards/:id' => 'flashcards#show'
 - patch '/flashcards/:id' => 'flashcards#update'
-- delete 'flashcards/:id' => 'flashcards#destroy'
+- delete '/flashcards/:id' => 'flashcards#destroy'
 
 
 ## 3rd Party APIs
