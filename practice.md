@@ -84,8 +84,15 @@ An author has many flashcards, and a flashcard belongs to an author.
 
 If I have time, I may make it so that authors can get other users' flashcards.
 This would involve a many to many relationship implemented through a join table,
-which I would like to speak with a consultant about it.
+decks.
 
+one to many between authors and cards:
+  - an author has many cards
+  - a card belongs to an author
+
+many to many between authors and cards, through decks:
+  - an author has access to many cards through (other users') deck
+  - a card has many authors through deck
 
 ## Routing
 
@@ -113,11 +120,11 @@ What routes will you need to be able to make the proper request to your API?
 | PATCH  | /words/:id  | words#update      |
 | DELETE | /words/:id  | words#destroy     |
 
-- get '/words/' => 'words#index'
-- post '/words/' => 'words#create'
-- get '/words/:id' => 'words#show'
-- patch '/words/:id' => 'words#update'
-- delete 'words/:id' => 'words#destroy'
+- get '/flashcards/' => 'flashcards#index'
+- post '/flashcards/' => 'flashcards#create'
+- get '/flashcards/:id' => 'flashcards#show'
+- patch '/flashcards/:id' => 'flashcards#update'
+- delete 'flashcards/:id' => 'flashcards#destroy'
 
 
 ## 3rd Party APIs
